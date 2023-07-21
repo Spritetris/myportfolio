@@ -1,0 +1,98 @@
+.title {
+  font-size: 50px;
+  padding: 5px 50px;
+  font-weight: bold;
+}
+
+.title2 {
+  font-size: 20px;
+  padding: 5px 50px;
+  font-weight: bold;
+}
+.title3 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.content {
+  display: flex;
+  font-size: 18px;
+  padding: 5px 50px;
+  align-items: center;
+}
+
+
+
+.container {
+  display: flex;
+  padding: 40px 0px;
+  margin: 30px;
+  justify-content: center;
+  border: 1px solid #a5a5a5;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+    margin:10px 30px;
+  }
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  width: 50%;
+  
+}
+
+.box{
+    border: 1px solid #a5a5a5;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+.img_profile {
+  border-radius: 50%;
+  margin: 20px;
+  width: 30%;
+  height: 30%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media (max-width: 760px) {
+  .container {
+    flex-direction: column;
+  }
+  .img_profile {
+    width:70%;
+  }
+  .flex {
+    width: 100%;
+  }
+  .container2{
+    flex-direction: column;
+  }
+  .container2 .accordion{
+    width: 80%;
+    
+  }
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  cursor: pointer;
+}
+
