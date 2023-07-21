@@ -69,13 +69,13 @@ const Home = () => {
             </button>
           </span>
         </div>{" "}
-        <img className="img_profile" src={profile} ></img>
+        <img className="img_profile" src={profile}></img>
       </div>
       {/* <div className="title2">My skills :</div>
       <div className="container2">
         <div className="box">JavaScript</div>
       </div> */}
-      <div className="title3"  id="skill">
+      <div className="title3" id="skill">
         Skills
       </div>
       <div className="container2">
@@ -84,7 +84,9 @@ const Home = () => {
         })}
       </div>
 
-      <div className="title3" id="project">Projects</div>
+      <div className="title3" id="project">
+        Projects
+      </div>
       <div className="container2">
         {projectData.map((item) => {
           return <Project key={item.id} {...item} />;
@@ -92,7 +94,6 @@ const Home = () => {
       </div>
 
       {/* end component */}
-      
     </div>
   );
 };

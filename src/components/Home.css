@@ -70,6 +70,12 @@ a {
   cursor: pointer;
 }
 
+button {
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  cursor: pointer;
+}
 @media (max-width: 760px) {
   .container {
     flex-direction: column;
@@ -88,11 +94,22 @@ a {
     
   }
 }
-
-button {
-  border: none;
-  background-color: transparent;
-  font-size: 18px;
-  cursor: pointer;
+@media (max-width: 576px) {
+  .title{
+    font-size: 45px;
+    padding: 10px 20px;
+    margin: auto;
+  }
+  .title2{
+    padding: 10px 20px;
+  }
+  .content{
+    padding: 5px 20px;
+  }
+  .container{
+    padding: 10px ;
+  }
 }
+
+
 

@@ -61,7 +61,7 @@ function Project(Props) {
         <div className="desc">
           <div>
             <h2>{title}</h2>
-            {title2}
+            <p>{title2}</p>
           </div>
           {show ? (
             <>
@@ -80,7 +80,7 @@ function Project(Props) {
             <div className="btn-more">
               <motion.button
                 onClick={() => setShow(!show)}
-                whileHover={{ scale: 1.2 }}
+                whileHover={{ scale: 1.2 }}className="btn"
               >
                 More
               </motion.button>

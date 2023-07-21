@@ -15,12 +15,20 @@
   transition: all 500ms;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
-.icon{
-}
-
 
 @media (max-width: 1500px) {
   .accordion {
     margin: 10px;
   }
 }
+
+@media (max-width: 576px) {
+  .accordion {
+    margin: 10px auto;
+    padding:10px 20px;
+  }
+  strong{
+    font-size: 14px;
+  }
+}
+

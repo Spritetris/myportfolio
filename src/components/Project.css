@@ -51,6 +51,7 @@ img {
 
 
 
+
 @media (max-width: 1500px) {
   .flex2 {
     padding: 0px 40px;
@@ -72,3 +73,25 @@ img {
     
   }
 }
+
+@media (max-width: 576px) {
+  h2{
+    font-size: 16px;
+  }
+  p{
+    font-size: 13px;
+    margin: 0px;
+  }
+  .btn{
+    font-size: 13px;
+  }
+  li{
+    font-size: 13px;
+  }
+  ul{
+    margin: 0px;
+    padding: 15px;
+  }
+}
+
+

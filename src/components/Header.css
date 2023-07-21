@@ -19,16 +19,12 @@ header{
     
 
 }
-
-.theme-container span{
-    font-size:20px;
-    margin-bottom: 100px;
-    cursor: pointer;
+.icon {
+    font-size: 20px;
     margin-left: 10px;
-    
-
-}.theme-container .icon{
-    font-size: 25px;
+    vertical-align: middle;
+    display: flex;
+    cursor: pointer;
 }
 
 
