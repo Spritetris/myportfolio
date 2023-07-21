@@ -18,12 +18,12 @@ export default function Header(props) {
           <span>AUNCHISA'S PORTFOLIO</span>
         </div>
         <Link to="#skill">
-          <div style={{ paddingLeft: "30px" }}>
+          <div style={{ paddingLeft: "30px" }} className="navbar">
             <span>SKILL</span>
           </div>
         </Link>
         <Link to="#project">
-          <div style={{ paddingLeft: "10px" }}>
+          <div style={{ paddingLeft: "10px" }} className="navbar">
             <span>PROJECT</span>
           </div>
         </Link>

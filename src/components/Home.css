@@ -28,11 +28,13 @@
 .container {
   display: flex;
   padding: 40px 0px;
-  margin: 30px;
+  margin: 20px 300px;
   justify-content: center;
-  border: 1px solid #a5a5a5;
+  /* border: 1px solid #a5a5a5; */
   border-radius: 10px;
   align-items: center;
+  background-color: rgba(255, 255, 255, 0.123);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .container2 {
@@ -55,6 +57,7 @@
     border-radius: 10px;
     padding: 10px 20px;
     margin: 10px;
+
 }
 
 .img_profile {
@@ -76,9 +79,10 @@ button {
   font-size: 18px;
   cursor: pointer;
 }
-@media (max-width: 760px) {
+@media (max-width: 1200px) {
   .container {
     flex-direction: column;
+    margin: 100px;
   }
   .img_profile {
     width:70%;
@@ -96,18 +100,29 @@ button {
 }
 @media (max-width: 576px) {
   .title{
-    font-size: 45px;
-    padding: 10px 20px;
+    font-size: 30px;
+    padding: 5px 20px;
     margin: auto;
   }
   .title2{
-    padding: 10px 20px;
-  }
-  .content{
+    font-size: 15px;
     padding: 5px 20px;
   }
+  .content{
+    font-size: 15px;
+    padding: 3px 20px;
+  }
   .container{
+    margin: 10px 40px;
     padding: 10px ;
+  }
+  button{
+    font-size: 15px;
+  }
+  .img_profile {
+    margin: 0px;
+    margin-bottom: 10px;
+    width:60%;
   }
 }
 

@@ -27,5 +27,13 @@ header{
     cursor: pointer;
 }
 
+@media (max-width: 576px) {
+    .logo span{
+        font-size: 15px;
+    }
+    .navbar {
+        font-size: 15px;}
+}
+
 
 

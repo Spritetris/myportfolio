@@ -41,8 +41,8 @@ button{
   background: rgb(130, 95, 111);
   background: radial-gradient(
     circle,
-    rgba(130, 95, 111, 1) 0%,
-    rgba(82, 102, 126, 1) 100%
+    rgb(45, 58, 75) 0%,
+    rgb(0, 0, 0) 100%
   );
   color: white;
   transition: all 500ms;
@@ -64,25 +64,25 @@ button{
 }
 
 .light .title {
-  background: -webkit-linear-gradient(rgb(190, 117, 145), rgb(102, 102, 101) );
+  background: -webkit-linear-gradient(rgb(221, 123, 161), rgb(129, 173, 190) );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .light .title2 {
-  background: -webkit-linear-gradient(rgb(190, 117, 145), rgb(102, 102, 101) );
+  background: -webkit-linear-gradient(rgb(247, 177, 204), rgb(175, 94, 164) );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
 }
 .light .title3 {
-  background: -webkit-linear-gradient(rgb(190, 117, 145), rgb(102, 102, 101) );
+  background: -webkit-linear-gradient(rgb(221, 123, 161), rgb(129, 173, 190));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
 }
 
 .light header{
-  background: -webkit-linear-gradient(rgb(190, 117, 145), rgb(102, 102, 101) );
+  background: -webkit-linear-gradient(rgb(221, 123, 161), rgb(129, 173, 190) );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
