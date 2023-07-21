@@ -21,6 +21,10 @@ button{
   color: black;
   transition: all 500ms;
 }
+.light button {
+  color: black;
+}
+
 
 .light a {
   color: black;
