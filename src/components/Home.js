@@ -50,7 +50,7 @@ const Home = () => {
           </span>
           <span className="content">
             <AiFillMail style={{ marginRight: 10 }} />
-            <a href="#"> Aunchisatris@gmail.com</a>
+             Aunchisatris@gmail.com
           </span>
           <span className="content">
             <AiFillLinkedin style={{ marginRight: 10 }} />
