@@ -16,6 +16,7 @@ import Skill from "./Skill";
 import Footer from "./Footer";
 import Project from "./Project";
 import { projectList } from "../data/project";
+import resume from'../Aunchisa_resume.pdf'
 
 const PDF_FILE_URL = "http://localhost:3001/Aunchisa_resume.pdf";
 
@@ -60,13 +61,13 @@ const Home = () => {
           </span>
           <span className="content">
             <AiFillFilePdf style={{ marginRight: 5 }} />
-            <button
-              onClick={() => {
-                downloadFile(PDF_FILE_URL);
-              }}
+            <Link to={resume} download="Aunchisa_resume"  target="_blank"  rel="noreferrer"><button
+              // onClick={() => {
+              //   downloadFile(PDF_FILE_URL);
+              // }}
             >
               Download resume
-            </button>
+            </button></Link>
           </span>
         </div>{" "}
         <img className="img_profile" src={profile}></img>
