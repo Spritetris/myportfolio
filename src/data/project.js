@@ -99,6 +99,18 @@ export const projectList = [
       "images/project6_03.jpg",
     ],
   },
+  {
+    key: 6,
+    title: "Calculator App ",
+    title2: "Create a calculator App using React.js",
+    content: [
+      "Designed and developed a calculator application using React.",
+      "Created an intuitive user interface with buttons for numbers and standard arithmetic operators.",
+    ],
+    img: [
+      "images/Calculator.gif"
+    ],
+  },
 ];
 
 // img:require("../images/project2.jpg")
